@@ -4,9 +4,9 @@
   "description": "a simple node app which simulates a dog",
   "main": "lib/index.js",
   "scripts": {
-    "start": "babel-node dist/index.js --exec babel-node --presets es2015,stage-2",
+    "tart": "babel-node dist/index.js --exec babel-node --presets es2015,stage-2",
     "build": "babel src -d dist",
-    "serve": "node dist/server.js",
+    "start": "node dist/server.js",
     "client": "babel-node dist/client.js --exec babel-node --presets es2015,stage-2",
     "repl": "babel-node dist/repl.js --exec babel-node --presets es2015,stage-2",
     "test": "mocha test/test.js --compilers js:babel-core/register"
